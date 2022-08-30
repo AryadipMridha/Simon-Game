@@ -43,7 +43,7 @@ function checkAnswer(currentLevel){ //game carry-on code
   else{
     playAudio("wrong");
     $("body").addClass("game-over");
-    $("#level-title").text("Lol Skill Issue bro. Press Any key to restart.");
+    $("#level-title").text("Lol XD try again bro. Press Any key to restart.");
     setTimeout(function() {
       $("body").removeClass("game-over");
   },200);
